@@ -1,5 +1,6 @@
 import React from "react";
 import reactDom from "react-dom";
+import Countries from "../components/Countries";
 import Navigation from "../components/Navigation";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div className="home">
             <Navigation />
             <h1>Salut mec !</h1>
+            <Countries/>
         </div>
     );
 };  
